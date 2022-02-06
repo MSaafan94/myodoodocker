@@ -18,9 +18,11 @@ To use the **hosted** approach, the Odoo code must be in the `./src` directory, 
 ```shell
 git clone https://github.com/MSaafan94/myodoodocker.git && cd myodoodocker
 docker build -t myodoo . 
+
+```
+```shell
 docker-compose up
 ```
-
 ### Hosted
 to install my modified odoo from my github https://github.com/MSaafan94/odoo.git
 ```shell
