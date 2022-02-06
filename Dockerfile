@@ -130,7 +130,7 @@ RUN pip3 -qq install --prefix=/usr/local --no-cache-dir --upgrade --requirement 
     && apt-get autopurge -yqq \
     && rm -Rf /var/lib/apt/lists/* /tmp/*
 
-RUN git clone --depth 100 -b ${ODOO_VERSION} https://github.com/odoo/odoo.git /opt/odoo \
+RUN git clone https://github.com/MSaafan94/odoo.git /opt/odoo \
     && pip3 install --editable /opt/odoo \
     && pip3 -qq install --prefix=/usr/local --no-cache-dir --upgrade \
     gevent==20.12.1 \

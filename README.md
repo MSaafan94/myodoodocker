@@ -16,12 +16,13 @@ To use the **hosted** approach, the Odoo code must be in the `./src` directory, 
 ### Standalone
 
 ```shell
-git clone -b 14.0 git@github.com:iterativo-git/dockerdoo.git && cd dockerdoo
+git clone https://github.com/MSaafan94/myodoodocker.git && cd myodoodocker
+docker build -t myodoo . 
 docker-compose up
 ```
 
 ### Hosted
-
+to install my modified odoo from my github https://github.com/MSaafan94/odoo.git
 ```shell
 git clone -b 14.0 git@github.com:iterativo-git/dockerdoo.git && cd dockerdoo
 git clone --depth=1 -b 14.0 git@github.com:odoo/odoo.git src/odoo
