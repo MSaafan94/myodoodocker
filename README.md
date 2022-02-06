@@ -1,5 +1,7 @@
 # Dockerized Odoo
 
+
+note the whole projects belongs to  https://github.com/iterativo-git/dockerdoo  and i just did some modification
 This is a flexible and **streamlined** version of most dockerized Odoo projects that you'll find. And one that allows you to deploy with two different methods using the same Dockerfile:
 
 * **Standalone**: As most people use their implementation. With Odoo's source code inside the container. **This is the default**
